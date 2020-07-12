@@ -1,0 +1,30 @@
+.dialog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.dialog > form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  background-color: white;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  list-style: none;
+  max-width: 500px;
+}
+
+.item .checkbox {
+  margin-left: auto;
+}
